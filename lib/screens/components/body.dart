@@ -1,6 +1,6 @@
-import 'package:ecommerce_app/constrants.dart';
+import 'package:ecommerce_app/app/components/constrants.dart';
+import 'package:ecommerce_app/app/components/size_config.dart';
 import 'package:ecommerce_app/screens/sign_in/sign_in_screen.dart';
-import 'package:ecommerce_app/size_config.dart';
 import 'package:flutter/material.dart';
 
 import 'custom_button.dart';

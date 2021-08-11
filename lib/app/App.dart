@@ -1,8 +1,7 @@
-import 'package:ecommerce_app/routs.dart';
 import 'package:ecommerce_app/screens/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
-
-import 'screens/components/theme.dart';
+import '../screens/components/theme.dart';
+import 'components/routs.dart';
 
 class App extends StatelessWidget {
   @override
@@ -17,5 +16,3 @@ class App extends StatelessWidget {
     );
   }
 }
-
-

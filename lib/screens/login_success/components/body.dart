@@ -1,6 +1,7 @@
+import 'package:ecommerce_app/app/components/size_config.dart';
 import 'package:ecommerce_app/screens/components/custom_button.dart';
+import 'package:ecommerce_app/screens/home/home_screen.dart';
 import 'package:ecommerce_app/screens/splash/splash_screen.dart';
-import 'package:ecommerce_app/size_config.dart';
 import 'package:flutter/material.dart';
 
 class Body extends StatelessWidget {
@@ -32,11 +33,9 @@ class Body extends StatelessWidget {
         SizedBox(
           width: SizeConfig.screenWidth! * 0.6,
           child: DefaultButton(
-              text: "Back to Home",
-              press: () {
-                Navigator.pushNamedAndRemoveUntil(
-                    context, SplashScreen.routeName, (route) => false);
-              }),
+            text: "Back to Home",
+            press: () => Navigator.pushNamed(context, HomePageScreen.routeName),
+          ),
         ),
         Spacer(),
       ],

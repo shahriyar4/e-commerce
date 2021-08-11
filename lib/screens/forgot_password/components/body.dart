@@ -1,11 +1,10 @@
+import 'package:ecommerce_app/app/components/constrants.dart';
+import 'package:ecommerce_app/app/components/size_config.dart';
 import 'package:ecommerce_app/screens/components/custom_button.dart';
 import 'package:ecommerce_app/screens/sign_in/components/custom_suffix_icon.dart';
 import 'package:ecommerce_app/screens/sign_in/components/form_error.dart';
 import 'package:ecommerce_app/screens/sign_in/components/no_have_account.dart';
-import 'package:ecommerce_app/size_config.dart';
 import 'package:flutter/material.dart';
-
-import '../../../constrants.dart';
 
 class Body extends StatelessWidget {
   const Body({Key? key}) : super(key: key);

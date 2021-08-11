@@ -1,11 +1,9 @@
+import 'package:ecommerce_app/app/components/constrants.dart';
+import 'package:ecommerce_app/app/components/size_config.dart';
 import 'package:ecommerce_app/screens/components/custom_button.dart';
 import 'package:ecommerce_app/screens/forgot_password/forgot_password_screen.dart';
-import 'package:ecommerce_app/screens/login_success/components/body.dart';
 import 'package:ecommerce_app/screens/login_success/login_success_screen.dart';
 import 'package:flutter/material.dart';
-
-import '../../../constrants.dart';
-import '../../../size_config.dart';
 import 'custom_suffix_icon.dart';
 import 'form_error.dart';
 

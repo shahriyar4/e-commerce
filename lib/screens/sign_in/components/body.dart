@@ -1,4 +1,4 @@
-import 'package:ecommerce_app/size_config.dart';
+import 'package:ecommerce_app/app/components/size_config.dart';
 import 'package:flutter/material.dart';
 import 'no_have_account.dart';
 import 'sign_form.dart';

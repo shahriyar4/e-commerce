@@ -1,9 +1,7 @@
 
+import 'package:ecommerce_app/app/components/constrants.dart';
+import 'package:ecommerce_app/app/components/size_config.dart';
 import 'package:flutter/material.dart';
-
-import '../../constrants.dart';
-import '../../size_config.dart';
-
 class DefaultButton extends StatelessWidget {
   const DefaultButton({
     Key? key,

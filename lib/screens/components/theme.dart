@@ -1,6 +1,5 @@
+import 'package:ecommerce_app/app/components/constrants.dart';
 import 'package:flutter/material.dart';
-
-import '../../constrants.dart';
 
 ThemeData theme() {
   return ThemeData(

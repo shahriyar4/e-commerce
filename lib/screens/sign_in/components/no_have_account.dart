@@ -1,8 +1,7 @@
-import 'package:ecommerce_app/screens/forgot_password/forgot_password_screen.dart';
+import 'package:ecommerce_app/app/components/constrants.dart';
+import 'package:ecommerce_app/app/components/size_config.dart';
+import 'package:ecommerce_app/screens/sign_up/sign_up_screen.dart';
 import 'package:flutter/material.dart';
-
-import '../../../constrants.dart';
-import '../../../size_config.dart';
 
 class NoHaveAccount extends StatelessWidget {
   const NoHaveAccount({
@@ -21,7 +20,7 @@ class NoHaveAccount extends StatelessWidget {
           ),
         ),
         GestureDetector(
-          onTap: () {},
+          onTap: () => Navigator.pushNamed(context, SignUpScreen.routeName),
           child: Text(
             "Sign Up",
             style: TextStyle(
