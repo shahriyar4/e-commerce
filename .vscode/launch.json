@@ -8,12 +8,13 @@
         {
             "name": "ecommerce_app",
             "request": "launch",
-            "program": "lib/app/main.dart",
+            "program": "lib/main.dart",
             "type": "dart"
         },
         {
             "name": "ecommerce_app (profile mode)",
             "request": "launch",
+            "program": "lib/main.dart",
             "type": "dart",
             "flutterMode": "profile"
         }

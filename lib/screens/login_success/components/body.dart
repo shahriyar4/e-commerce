@@ -1,7 +1,6 @@
 import 'package:ecommerce_app/app/components/size_config.dart';
 import 'package:ecommerce_app/screens/components/custom_button.dart';
 import 'package:ecommerce_app/screens/home/home_screen.dart';
-import 'package:ecommerce_app/screens/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 class Body extends StatelessWidget {
@@ -16,7 +15,7 @@ class Body extends StatelessWidget {
         ),
         Image.asset(
           "assets/images/success.png",
-          height: SizeConfig.screenHeight! * 0.5,
+          height: SizeConfig.screenHeight! * 0.4,
         ),
         SizedBox(
           height: SizeConfig.screenHeight! * 0.08,

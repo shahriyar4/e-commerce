@@ -19,6 +19,8 @@ class Product {
     required this.price,
     required this.description,
   });
+
+  get product => null;
 }
 
 // Our demo Products
